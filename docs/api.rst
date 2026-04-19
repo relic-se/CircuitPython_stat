@@ -7,5 +7,10 @@
 API Reference
 #############
 
-.. automodule:: stat
+.. important::
+    The documentation here defines the module as `relic_stat`, but the module is actually `stat`
+    without the appended "relic\_". A conflict with the built-in `stat` module and the
+    auto-documentation generator requires this modification.
+
+.. automodule:: relic_stat
     :members:
